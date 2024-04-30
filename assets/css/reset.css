@@ -1,0 +1,87 @@
+/* Reset CSS */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+table,
+td,
+th {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+}
+
+/* Reset lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove decoration on links */
+a {
+  text-decoration: none;
+}
+
+/* Remove default button style */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Remove outline on focus */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Additional resets */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

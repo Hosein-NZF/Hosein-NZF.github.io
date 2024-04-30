@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jersey+25&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Cabin", sans-serif !important;
+}
+
+body {
+    background-image: url("/assets/images/my-back.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #fff;
+    font-size: 6rem;
+}
+
+.sub-title {
+    color: #fff;
+}
+
+.sub-title {
+    margin-top: 1rem;
+}
+
+.container-socialmedia {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+}
+
+.container-socialmedia a {
+    width: 2.2rem;
+    border-radius: 5rem;
+    border: 2px solid #fff;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0.4rem;
+    transition: all 0.9s;
+
+}
+
+.container-socialmedia a:hover {
+    background-color: #ffffff;
+}
+
+.container-socialmedia a:hover img {
+    filter: unset;
+}
+
+.container-socialmedia img {
+    transition: filter 0.3s;
+    filter: brightness(0) invert(1);
+    object-fit: contain;
+}
+
+.btn-notify{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    transition: all 0.4s;
+}
+
+.btn-notify:hover{
+    background-color: rgba(0, 0, 0, 0.142);
+    color: #141414;
+}
