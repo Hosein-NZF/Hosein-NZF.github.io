@@ -1,0 +1,20 @@
+:root {
+    font-size: 14px;
+}
+
+body{
+    background-size:cover;
+    background-position: center;
+}
+
+.title, .sub-title {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.sub-title{
+    padding: 0 0.5rem;
+}
